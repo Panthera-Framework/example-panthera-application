@@ -1,3 +1,4 @@
+.content/Binaries/*
 .content/cache/applicationIndex.php
 .content/cache/phinx.yaml
 .content/cache/phpunit.xml.dist
