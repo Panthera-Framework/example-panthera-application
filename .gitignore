@@ -6,4 +6,5 @@
 .content/cache/RainTPL4/*
 .content/database.sqlite3
 .content/composer.lock
+vendor/
 .idea
