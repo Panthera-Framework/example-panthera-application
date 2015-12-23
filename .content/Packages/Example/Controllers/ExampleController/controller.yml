@@ -1,0 +1,9 @@
+"\\ExampleAPP\\Packages\\Example\\Controllers\\ExampleController":
+  routes:
+    "/example,[:testParameter]":
+        methods: GET|POST
+        priority: 100
+
+    "/test123":
+        methods: GET|POST
+        priority: 101

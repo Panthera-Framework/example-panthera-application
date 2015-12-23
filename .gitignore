@@ -1,0 +1,9 @@
+.content/cache/applicationIndex.php
+.content/cache/phinx.yaml
+.content/cache/phpunit.xml.dist
+.content/cache/applicationCache.sqlite3
+.content/cache/sessions/*
+.content/cache/RainTPL4/*
+.content/database.sqlite3
+.content/composer.lock
+.idea
