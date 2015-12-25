@@ -15,7 +15,13 @@ Now, install dependencies (PF2 included):
 
 ```bash
 cd example-panthera-application
-composer install
+php -r "readfile('https://getcomposer.org/installer');" | php
+composer.phar install
+
+# temporary workaround for wrong version of PF2 on packagist
+cd vendor/pantheraframework/panthera
+git pull
+cd ../../../
 ```
 
 And finally deploy developer environment, which included building SQLite3 database, migrations, shell configuration:
