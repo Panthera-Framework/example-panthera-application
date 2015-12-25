@@ -16,7 +16,7 @@ Now, install dependencies (PF2 included):
 ```bash
 cd example-panthera-application
 php -r "readfile('https://getcomposer.org/installer');" | php
-composer.phar install
+./composer.phar install
 
 # temporary workaround for wrong version of PF2 on packagist
 cd vendor/pantheraframework/panthera
