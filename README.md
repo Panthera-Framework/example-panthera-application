@@ -5,6 +5,8 @@ Example application skeleton based on Panthera Framework 2, this project is a go
 
 ## Setup
 
+[![asciicast](https://asciinema.org/a/0klyxqv030qdcd7gslwf4i9p6.png)](https://asciinema.org/a/0klyxqv030qdcd7gslwf4i9p6)
+
 Clone the repository at first.
 
 ```bash
