@@ -5,11 +5,11 @@ use Panthera\Packages\BasePackage\Controllers\IndexController as ParentControlle
 use Panthera\Components\Controller\ResponseText;
 
 /**
- * RaspAP
+ * Index Controller of example Panthera Framework application
  * --
  * Class IndexController
  *
- * @package RaspAP\Packages\BasePackage\Controllers
+ * @package ExampleAPP\Packages\BasePackage\Controllers
  */
 class IndexController extends ParentController
 {
@@ -18,6 +18,6 @@ class IndexController extends ParentController
      */
     public function defaultAction()
     {
-        return new ResponseText('Hello world, change me in /.content/Packages/BasePackage/IndexController/IndexController.php, remember IndexController from BasePackage is specific, does not require routing configuration as it\'s hardcoded to be used at "/" path already');
+        return new ResponseText('Hello, World! Change me in /.content/Packages/BasePackage/Controllers/IndexController/IndexController.php. Remember IndexController from BasePackage is specific, does not require routing configuration as it\'s hardcoded to be used at "/" path already.');
     }
 }
